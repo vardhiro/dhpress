@@ -14,6 +14,7 @@ define("dbname","db_name");
 define("admin","admin_here");
 // change pass_here to your prefered site's admin username in the next line
 define("pass","pass_here");
+error_reporting(0);
 echo"<center>";
 ?>
 <style>
