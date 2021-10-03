@@ -1,2 +1,2 @@
 # dhpress
-A standalone Content Management System 
+A standalone 'one page' Content Management System 
