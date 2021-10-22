@@ -81,7 +81,7 @@ if(host == "host_name"||userdb == "host_name"||passdb == "db_pass"||dbname == "d
     if(!$conn){
         echo"FOR THE ADMIN: Check the information that you gave in the source file about your database";
     }else{
-        $s = "CREATE TABLE IF NOT EXISTS post(id int(30) not null auto_increment primary key, title varchar(225), post varchar(10000) not null, clock varchar(100) not null, editclock varchar(100) not null, views int(10) not null";
+        $s = "CREATE TABLE IF NOT EXISTS post(id int(30) not null auto_increment primary key, title varchar(225), post varchar(10000) not null, clock varchar(100) not null, editclock varchar(100) not null, views int(10) not null)";
         mysqli_query($conn,$s);
         if(isset($_GET['admin'])){
             if($_GET['admin'] == 'login'){
