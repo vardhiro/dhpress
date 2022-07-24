@@ -3,17 +3,17 @@ session_start();
 // dhpress v0.1
 // Created by Dhirodatto Biswas
 // change the host_name to your MySQL hostname in the next line
-define("host","localhost");
+define("host","host_name");
 // change user_name to your MySQL username in the next line
-define("userdb","id18315271_root");
+define("userdb","user_name");
 // change db_pass to your MySQL password in the next line
-define("passdb","*oxrj~E_|2b?@^~m");
+define("passdb","db_pass");
 // change db_name to your MySQL database name in the next line
-define("dbname","id18315271_alldb");
+define("dbname","db_name");
 // change admin_here to your prefered site's admin username in the next line
-define("admin","vardhiro");
+define("admin","admin_here");
 // change pass_here to your prefered site's admin username in the next line
-define("pass","meow_1991");
+define("pass","pass_here");	
 error_reporting(1);
 echo"<center>";
 ?>
